@@ -13,10 +13,10 @@
   "devDependencies": {},
   "scripts": {
     "start": "node index.js",
-    "build" : "cd frontend && npm run build",
-    "install-client":"cd frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "install-client": "cd frontend && npm install",
     "heroku-postbuild": "npm run install-frontend && npm run build",
-    "client" : "cd frontend && npm start"
+    "client": "cd frontend && npm start"
   },
   "author": "",
   "license": "ISC"
